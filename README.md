@@ -1,5 +1,9 @@
 
 # UL-SLAM （coming soon）
+[TASE'23] Title: UL-SLAM: A Universal Monocular Line-based
+SLAM via Unifying Structural and Non-structural
+Constraints (conditional accept)
+
 This repository proposes a general line-based SLAM system that combines **points, structural and non-structural lines** and aimed at improved tracking and mapping accuracy by relying on **line classification, degeneracy identification and geometric constrains (parallel and perpendicular directions)**. By exploring the directional constraints on the original line features, the degeneracy issues associated with Plücker representation in the line triangulation process can be alleviated. More details can be found in our papers.  
 
 **Authors:** Haochen Jiang $^* $, Rui Qian $^* $, Liang Du, Jian Pu and Jianfeng Feng
@@ -19,6 +23,10 @@ This repository proposes a general line-based SLAM system that combines **points
 * fr3_long_office (dataset TUM RGB-D)
 
      <img src="image/long_office.png" width="400">
+
+* fr3_structure_texture_far (with out loop closure) (dataset TUM RGB-D)
+
+     <img src="image/f3_str_text_far.png" width="400">
 
 * MH_04_difficult (dataset EuRoC MAV)
 
@@ -111,16 +119,9 @@ Important flags:
 ----
 
 <!-- ##  6. <a name='Citation'></a>Citation
-If you use PL-SLAM in your research work, please cite:
+If you use UL-SLAM in your research work, please cite:
 
-@article{gomez2017pl,
-  title   = {{PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments}},
-  author  = {Gomez-Ojeda, Ruben and Zuñiga-Noël, David and Moreno, Francisco-Angel and Scaramuzza, Davide and Gonzalez-Jimenez, Javier},
-  journal = {arXiv preprint arXiv:1705.09479},
-  year    = {2017}
-}
-
-The pdf file can be found at https://arxiv.org/abs/1705.09479.
+The pdf file can be found at XXXX.
 
 ##  6. <a name='Acknowledgement'></a>Acknowledgement
 
