@@ -1,7 +1,8 @@
+
 # UL-SLAM （coming soon）
 This repository proposes a general line-based SLAM system that combines **points, structural and non-structural lines** and aimed at improved tracking and mapping accuracy by relying on **line classification, degeneracy identification and geometric constrains (parallel and perpendicular directions)**. By exploring the directional constraints on the original line features, the degeneracy issues associated with Plücker representation in the line triangulation process can be alleviated. More details can be found in our papers.  
 
-**Authors:** Haochen Jiang$^* $, Rui Qian$^* $, Liang Du, Jian Pu and Jianfeng Feng
+**Authors:** Haochen Jiang $^* $, Rui Qian $^* $, Liang Du, Jian Pu and Jianfeng Feng
 
 ##  1. <a name='RelatedPublications:'></a>Related Publications:
 
